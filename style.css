@@ -233,8 +233,10 @@
 @media screen and (max-width:576px) {
     /* donate-amount section start here */
     .donate-amount-section{
-        margin: 40px 20px;
-        max-width: 400px;
+        margin: 40px 30px;
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
     }
     .amount-cards{
         display: grid;
@@ -242,11 +244,12 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        margin: 40px 0px;
+        margin: 40px auto;
          
     }
     .amount-card{
         margin: 0px;
+
     }
     /* donate plan section start here */
     .donate-plan-section{
