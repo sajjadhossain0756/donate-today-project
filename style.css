@@ -153,8 +153,33 @@
     font-weight: 500;
     padding-top: 20px;
 }
-.plan-card .description{
-
+/* programe section start here */
+.programe-section{
+    margin: 50px 120px;
+}
+.programe-card{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.programe-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.programe-description{
+    margin: 20px 0px;
+}
+.programe-btn{
+    font-size: 20px;
+    font-weight: 500;
+}
+.programe-image{
+    max-width: 550px;
+}
+.programe-image img{
+    width: 100%;
+    border-radius: 8px;
 }
 
 /* responsive design for mobile device or small device */
@@ -185,6 +210,13 @@
         justify-content: center;
         align-items: center;
     }
+    /* programe section start here */
+    .programe-section{
+       margin: 50px 20px;
+    }
+    .programe-card{
+        flex-direction: column-reverse;
+    }
     
 }
 /* responsive design for medium device or tablet device */
@@ -210,11 +242,18 @@
     }
     /* donate plan section start here */
     .donate-plan-section{
-        margin: 40px 50px;
+        margin: 40px auto;
      }
      .plan-cards{
          flex-direction: column;
          justify-content: center;
          align-items: center;
+     }
+     /* programe section start here */
+    .programe-section{
+        margin: 50px;
+     }
+     .programe-card{
+         flex-direction: column-reverse;
      }
 }
