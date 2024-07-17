@@ -14,6 +14,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.default-margin{
+    margin: 20px 0px;
+}
 .link-style{
     text-decoration: none;
     color: white;
@@ -108,6 +111,51 @@
     margin: 20px 0px;
     padding: 15px 25px;
 }
+/* donate plan section start here */
+.donate-plan-section{
+    margin: 40px 120px;
+}
+.donate-plan-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-plan-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.donate-plan-description{
+    margin: 20px 0px;
+}
+.plan-cards{
+    gap: 20px;
+    margin: 50px 0px;
+}
+.plan-card{
+    padding: 30px 25px;
+    border-radius: 5px;
+    max-width: 360px;
+}
+.plan-card-1{
+    background-color: #edf5f6;
+}
+.plan-card-2{
+    background-color: #ffeeee;
+}
+.plan-card-3{
+    background-color: #fff4d6;
+}
+.plan-card i{
+    color: #ff5959;
+}
+.plan-card .title{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.plan-card .description{
+
+}
 
 /* responsive design for mobile device or small device */
 @media screen and (max-width:576px) {
@@ -127,6 +175,15 @@
     }
     .amount-card{
         margin: 0px;
+    }
+    /* donate plan section start here */
+    .donate-plan-section{
+       margin: 40px 20px;
+    }
+    .plan-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
@@ -151,4 +208,13 @@
     .amount-card{
         margin: 0px;
     }
+    /* donate plan section start here */
+    .donate-plan-section{
+        margin: 40px 50px;
+     }
+     .plan-cards{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
 }
