@@ -233,8 +233,8 @@
 @media screen and (max-width:576px) {
     /* donate-amount section start here */
     .donate-amount-section{
-        margin: 40px 30px;
-        max-width: 350px;
+        margin: 40px 20px;
+        max-width: 330px;
         justify-content: center;
         align-items: center;
     }
